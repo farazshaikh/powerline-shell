@@ -16,7 +16,7 @@ class DefaultColor(object):
     HOSTNAME_BG = 238
 
     HOME_SPECIAL_DISPLAY = True
-    HOME_BG = 31  # blueish
+    HOME_BG = 240  # blueish
     HOME_FG = 15  # white
     PATH_BG = 237  # dark grey
     PATH_FG = 250  # light grey
@@ -31,7 +31,7 @@ class DefaultColor(object):
 
     REPO_CLEAN_BG = 148  # a light green color
     REPO_CLEAN_FG = 0  # black
-    REPO_DIRTY_BG = 161  # pink/red
+    REPO_DIRTY_BG = 240  # pink/red
     REPO_DIRTY_FG = 15  # white
 
     JOBS_FG = 39
@@ -47,15 +47,15 @@ class DefaultColor(object):
 
     GIT_AHEAD_BG = 240
     GIT_AHEAD_FG = 250
-    GIT_BEHIND_BG = 240
+    GIT_BEHIND_BG = 243
     GIT_BEHIND_FG = 250
     GIT_STAGED_BG = 22
     GIT_STAGED_FG = 15
-    GIT_NOTSTAGED_BG = 130
+    GIT_NOTSTAGED_BG = 240
     GIT_NOTSTAGED_FG = 15
-    GIT_UNTRACKED_BG = 52
+    GIT_UNTRACKED_BG = 241
     GIT_UNTRACKED_FG = 15
-    GIT_CONFLICTED_BG = 9
+    GIT_CONFLICTED_BG = 253
     GIT_CONFLICTED_FG = 15
 
     GIT_STASH_BG = 221
